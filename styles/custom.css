@@ -77,19 +77,27 @@ body{
     border-style: none;
     font-family: "oswald";
 }
-    /* bottom */
+    /* footer */
 
 .logo{
     width: 200px;
 }
-.bottom{
+.footer-fluid {
+    background-color:#A7E2E3;
+}
+
+.footer {
     font-family: "oswald";
+    color: #FFFCF9;
     font-size: 8px;
     margin-top: 150px;
+    padding-top: 20px;
+    height: 190px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /*witruimte*/
 
  .coleerstefilm{
@@ -186,7 +194,8 @@ body{
     height: 300px;
     padding-left: 40px;
 }
-
+.footer{
+    margin-top: 80px;
 
 }
 
