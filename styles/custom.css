@@ -1,6 +1,8 @@
 body{
     background-color: #FFFCF9;
 }
+
+/* top */
 .jumbotron{
     background-color: #A7E2E3;
     color: #FFFCF9;
@@ -21,9 +23,7 @@ body{
     z-index: -1;
     color: #FF6978;
 }
-.groot{
-    font-size: 200px;
-}
+
 /* titel */
 
 .titel-film{
@@ -71,39 +71,38 @@ body{
     }
 /* button */
 .btn{
-    position: relative;
-    top: 530px;
-    z-index: 3;
+    font-size: 10px;
+    background-color: #A7E2E3;
+    color: #340068;
+    border-style: none;
+    font-family: "oswald";
 }
     /* bottom */
 
 .logo{
-    width: 100px;
+    width: 200px;
 }
 .bottom{
     font-family: "oswald";
     font-size: 8px;
     margin-top: 150px;
-}
-.naam{
-    font-size: 1rem;
+    margin: 0px auto;
+    margin-top: 180px;
 }
 /*witruimte*/
 
  .coleerstefilm{
-     margin-bottom: 500px;
+     margin-bottom: 480px;
      padding-bottom: 20px;
      padding-left: 40px;  
  }
 
 .genest{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     height: 500px;
     padding-left: 40px;
 }
-.extrawit{
-    margin-top: 40px;
-}
+
 
 /*fonts*/
 
