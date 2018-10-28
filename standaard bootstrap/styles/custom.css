@@ -1,0 +1,145 @@
+
+.jumbotron{
+    background-color: lightgrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.number-groot{
+    font-size: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    color: darkgrey;
+}
+.titel-film-groot{
+    position: relative;
+    top: 40px;
+    left: 5px;
+    font-size: 12px;
+    z-index: 1;
+    background-color: grey;
+}
+
+.img-film-groot{
+    padding-top: 40px;
+    z-index:0;
+    max-height: 100%;
+    max-width: 100%;
+}
+ 
+
+.info-film-groot{
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    background-color: lightgrey;
+    z-index: 1;
+    width: 150px;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.number-klein{
+    font-size: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    color: darkgrey;
+}
+.titel-film-klein{
+    position: relative;
+    top: 40px;
+    left: 5px;
+    font-size: 12px;
+    z-index: 1;
+    background-color: grey;
+}
+
+.info-film-klein{
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    background-color: lightgrey;
+    z-index: 1;
+    width: 150px;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.img-film-klein{
+    padding-top: 40px;
+    z-index:0;
+    max-height: 100%;
+    max-width: 100%;
+}
+ 
+.movie{
+    margin-top: 10px;
+}
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    .info-film-groot{
+        position: absolute;
+        top: 300px;
+        right: 0px;
+        background-color: lightgrey;
+        z-index: 1;
+        width: 300px;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .number-groot{
+        font-size: 100px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        color: darkgrey;
+    }
+    .titel-film-groot{
+        position: relative;
+        top: 75px;
+        left: 10px;
+        font-size: 20px;
+        z-index: 1;
+        background-color: grey;
+    }
+    .img-film-groot{
+        padding-top: 70px;
+        z-index:0;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
